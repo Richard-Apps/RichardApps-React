@@ -1,0 +1,54 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+  background-color: #000000;
+}
+.home-text {
+  color: #ffffff;
+  margin: 0px;
+  z-index: 100;
+  font-size: 150px;
+  font-family: Impact;
+  line-height: 1;
+  user-select: none;
+}
+.home-text1 {
+  color: #c1c1c1;
+  z-index: 100;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 300;
+}
+.home-text4 {
+  color: #c1c1c1;
+  z-index: 100;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Open Sans;
+  font-weight: 700;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  filter: brightness(0.7) blur(5px) contrast(1.4);
+  height: 100%;
+  display: flex;
+  z-index: 0;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("public/playground_assets/final-render-ps-1500w.png");
+  background-position: top;
+}
