@@ -1,2 +1,2 @@
 # RichardApps-React
-(not actually react)
+Website for [RichardApps](https://richardapps.de/)
