@@ -161,8 +161,8 @@
             </div>
           </div>
         </header>
-        <div class="home-content">
-          <span class="home-text10">RichardApps</span>
+        <div id="main" class="home-main">
+          <span id="slogan" class="home-text10">RichardApps</span>
           <span class="home-text11">
             I'm a coder, content creator, 3D modeler, and gamer. I'm passionate
             about the digital world and strive to create unique experiences for
@@ -170,20 +170,19 @@
             skills.
           </span>
           <div class="home-container3">
-            <a
-              href="https://www.youtube.com/channel/UCw50MjAsInudkO8OqZlRreA"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="home-link2 button"
+            <button
+              type="button"
+              onclick="myProjectsSlide()"
+              class="home-button button"
             >
               <span class="home-text12">
                 <span>MY PROJECTS</span>
                 <br />
               </span>
-            </a>
+            </button>
             <a
               href="mailto:devrichardapps@gmail.com?subject=Personal Contact"
-              class="home-link3 button"
+              class="home-link2 button"
             >
               <span class="home-text15">
                 <span>CONTACT&nbsp;ME</span>
@@ -192,12 +191,24 @@
             </a>
           </div>
         </div>
-        <div class="home-container4"></div>
+        <div class="home-background"></div>
+        <div class="home-background1"></div>
+        <video
+          src="public/playground_assets/planet_render.mp4"
+          loop=""
+          muted=""
+          poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+          autoplay=""
+          playsinline=""
+          class="home-video"
+        ></video>
       </div>
     </div>
-    <script
-      data-section-id="navbar"
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
+    <script type="text/javascript">
+          function myProjectsSlide() {
+          document.getElementById("main").classList.add("bgSlideAnimation");
+
+      }
+    </script>
   </body>
 </html>
