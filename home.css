@@ -20,7 +20,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: space-between;
 }
-.home-navlink {
+.home-link {
   color: #657dda;
   cursor: pointer;
   height: auto;
@@ -36,7 +36,7 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-.home-navlink:hover {
+.home-link:hover {
   color: #94aaef;
   transform: scale(1.1);
 }
@@ -47,7 +47,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.home-link {
+.home-link1 {
   display: contents;
 }
 .home-image {
@@ -60,7 +60,7 @@
 .home-image:hover {
   transform: scale(1.25);
 }
-.home-link1 {
+.home-link2 {
   display: contents;
 }
 .home-image1 {
@@ -123,7 +123,7 @@
   align-items: flex-start;
   padding-left: 11px;
 }
-.home-navlink1 {
+.home-link3 {
   color: #ffffff;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
@@ -142,7 +142,7 @@
   text-decoration: none;
   background-color: rgb(101, 125, 218);
 }
-.home-navlink1:hover {
+.home-link3:hover {
   color: #000000;
   cursor: pointer;
   transform: scale(1.25);
@@ -152,7 +152,7 @@
   font-size: 12px;
   line-height: 1.75;
 }
-.home-link2 {
+.home-link4 {
   color: #000000;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
@@ -171,7 +171,7 @@
   text-decoration: none;
   background-color: #ffffff;
 }
-.home-link2:hover {
+.home-link4:hover {
   color: #000000;
   cursor: pointer;
   transform: scale(1.25);

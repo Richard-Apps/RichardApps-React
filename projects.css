@@ -45,7 +45,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: space-between;
 }
-.projects-navlink {
+.projects-link {
   color: #657dda;
   cursor: pointer;
   height: auto;
@@ -61,7 +61,7 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-.projects-navlink:hover {
+.projects-link:hover {
   color: #94aaef;
   transform: scale(1.1);
 }
@@ -72,7 +72,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.projects-link {
+.projects-link1 {
   display: contents;
 }
 .projects-image {
@@ -85,7 +85,7 @@
 .projects-image:hover {
   transform: scale(1.25);
 }
-.projects-link1 {
+.projects-link2 {
   display: contents;
 }
 .projects-image1 {
@@ -132,7 +132,7 @@
   display: flex;
   align-items: flex-start;
 }
-.projects-link2 {
+.projects-link3 {
   display: contents;
 }
 .projects-namegen {
@@ -223,7 +223,7 @@
   padding-bottom: 6px;
   background-color: #35bc3c;
 }
-.projects-link3 {
+.projects-link4 {
   display: contents;
 }
 .projects-tropical-m-c {
@@ -330,7 +330,7 @@
   padding-bottom: 6px;
   background-color: #35bc3c;
 }
-.projects-link4 {
+.projects-link5 {
   display: contents;
 }
 .projects-luqie-design {
