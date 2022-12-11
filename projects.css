@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.projects-container1 {
+.projects-main {
   top: 0px;
   flex: 0 0 auto;
   left: 0px;
@@ -15,6 +15,7 @@
   height: 100%;
   display: flex;
   position: absolute;
+  overflow-x: hidden;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
@@ -45,7 +46,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: space-between;
 }
-.projects-link {
+.projects-navlink {
   color: #657dda;
   cursor: pointer;
   height: auto;
@@ -61,7 +62,7 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-.projects-link:hover {
+.projects-navlink:hover {
   color: #94aaef;
   transform: scale(1.1);
 }
@@ -72,7 +73,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.projects-link1 {
+.projects-link {
   display: contents;
 }
 .projects-image {
@@ -85,7 +86,7 @@
 .projects-image:hover {
   transform: scale(1.25);
 }
-.projects-link2 {
+.projects-link1 {
   display: contents;
 }
 .projects-image1 {
@@ -124,15 +125,17 @@
   line-height: 0.9;
   user-select: none;
 }
-.projects-container2 {
+.projects-container1 {
   gap: var(--dl-space-space-fourunits);
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
+  padding-right: var(--dl-space-space-threeunits);
 }
-.projects-link3 {
+.projects-link2 {
   display: contents;
 }
 .projects-namegen {
@@ -159,7 +162,7 @@
 .projects-namegen:hover {
   transform: scale(1.15);
 }
-.projects-container3 {
+.projects-container2 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -182,7 +185,7 @@
   font-family: Open Sans;
   font-weight: 300;
 }
-.projects-container4 {
+.projects-container3 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
@@ -223,7 +226,7 @@
   padding-bottom: 6px;
   background-color: #35bc3c;
 }
-.projects-link4 {
+.projects-link3 {
   display: contents;
 }
 .projects-tropical-m-c {
@@ -250,7 +253,7 @@
 .projects-tropical-m-c:hover {
   transform: scale(1.15);
 }
-.projects-container5 {
+.projects-container4 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -273,7 +276,7 @@
   font-family: Open Sans;
   font-weight: 300;
 }
-.projects-container6 {
+.projects-container5 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
@@ -330,7 +333,7 @@
   padding-bottom: 6px;
   background-color: #35bc3c;
 }
-.projects-link5 {
+.projects-link4 {
   display: contents;
 }
 .projects-luqie-design {
@@ -357,7 +360,7 @@
 .projects-luqie-design:hover {
   transform: scale(1.15);
 }
-.projects-container7 {
+.projects-container6 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -371,7 +374,7 @@
   font-family: Open Sans;
   font-weight: 700;
 }
-.projects-text19 {
+.projects-text21 {
   color: #ffffff;
   cursor: inherit;
   z-index: 100;
@@ -380,7 +383,7 @@
   font-family: Open Sans;
   font-weight: 300;
 }
-.projects-container8 {
+.projects-container7 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
@@ -421,20 +424,39 @@
   padding-bottom: 6px;
   background-color: #35bc3c;
 }
-@media(max-width: 767px) {
-  .projects-navbar {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+@media(max-width: 1068px) {
+  .projects-container {
+    background-color: #000000;
   }
-  .projects-btn-group {
-    display: none;
+  .projects-background {
+    background-position: center;
   }
-  .projects-container2 {
-    flex-wrap: wrap;
-  }
-}
-@media(max-width: 479px) {
   .projects-navbar {
     padding: var(--dl-space-space-unit);
+  }
+  .projects-content {
+    padding-left: var(--dl-space-space-unit);
+  }
+  .projects-text {
+    font-size: 64px;
+    margin-right: var(--dl-space-space-unit);
+  }
+  .projects-container1 {
+    gap: var(--dl-space-space-oneandhalfunits);
+    align-items: flex-start;
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .projects-namegen {
+    flex: 1;
+    width: 100%;
+  }
+  .projects-tropical-m-c {
+    flex: 1;
+    width: 100%;
+  }
+  .projects-luqie-design {
+    flex: 1;
+    width: 100%;
   }
 }
