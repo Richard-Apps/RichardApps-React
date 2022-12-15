@@ -456,9 +456,6 @@
   padding-bottom: 6px;
   background-color: #35bc3c;
 }
-.projects-link5 {
-  display: contents;
-}
 .projects-tapside {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
@@ -477,7 +474,6 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: flex-start;
-  text-decoration: none;
   background-image: linear-gradient(225deg, rgb(29, 38, 42) 0.00%,rgb(23, 21, 21) 100.00%);
 }
 .projects-tapside:hover {
@@ -603,7 +599,7 @@
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: row;
 }
-.projects-link6 {
+.projects-link5 {
   display: contents;
 }
 .projects-tropical-m-c {
