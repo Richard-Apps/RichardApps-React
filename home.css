@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   padding: 0px;
-  overflow: auto;
+  overflow: hidden;
   min-height: 100vh;
   align-items: flex-start;
   flex-direction: column;
@@ -101,7 +101,7 @@
   align-items: flex-start;
 }
 .home-text {
-  color: rgb(101, 125, 218);
+  color: #6589da;
   width: auto;
   z-index: 100;
   font-size: 150px;
@@ -219,7 +219,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/playground_assets/final-render-ps-1500w.png");
+  background-image: url("https://play.teleporthq.io/static/svg/placeholders/no-image.svg");
   background-position: top;
 }
 .home-background1 {
@@ -228,7 +228,7 @@
   width: 100%;
   bottom: 0px;
   height: 100%;
-  display: flex;
+  display: none;
   z-index: 0;
   position: absolute;
   align-items: flex-start;
@@ -240,11 +240,9 @@
 }
 .home-video {
   top: 0px;
-  flex: 1;
-  left: 0px;
-  width: 100%;
+  right: 0px;
+  width: auto;
   height: 100%;
-  display: none;
   position: absolute;
 }
 @media(max-width: 1068px) {
