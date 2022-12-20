@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.name-gen-container1 {
+.name-gen-namegen {
   gap: var(--dl-space-space-oneandhalfunits);
   top: 0px;
   flex: 0 0 auto;
@@ -34,7 +34,7 @@
   font-family: Open Sans;
 }
 @media(max-width: 1068px) {
-  .name-gen-container1 {
+  .name-gen-namegen {
     flex-wrap: wrap;
   }
 }
