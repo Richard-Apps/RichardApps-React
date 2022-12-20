@@ -9,7 +9,7 @@
 }
 .projects-namegen {
   gap: var(--dl-space-space-oneandhalfunits);
-  top: -100%;
+  top: 100%;
   flex: 0 0 auto;
   left: 0px;
   width: 100%;
